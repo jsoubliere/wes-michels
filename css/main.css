@@ -1,0 +1,72 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+header {
+  border-bottom: black 5px;
+}
+
+.container {
+   width: 100%;
+   margin: 0 auto;
+}
+
+header {
+  height: 150px;
+}
+
+header h1 {
+  color: turquoise;
+  float: left;
+  width: 33%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: black 5px;
+}
+
+header h1 span {
+  color: black;
+  font-size: 12px;
+}
+
+header img {
+  float:left;
+  width: 34%;
+  height: 150px;
+  padding-left: px;
+}
+
+header nav {
+  float: left;
+  width: 33%;
+  padding-top: 40px;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+  margin-left: 10px;
+  padding: 30px;
+  display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: turquoise;
+}
+
+.top-section {
+}
+
+.main-image img{
+  width: 100%;
+}
